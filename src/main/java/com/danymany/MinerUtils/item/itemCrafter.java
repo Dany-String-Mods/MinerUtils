@@ -7,6 +7,7 @@ public class itemCrafter extends itemMU
         super();
         this.maxStackSize = 1;
         this.setUnlocalizedName("itemCrafter");
+        this.setTextureName("MinerUtils:itemCrafter");
     }
 
 

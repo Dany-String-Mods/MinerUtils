@@ -1,11 +1,10 @@
 package com.danymany.MinerUtils.item;
 
-
+import com.danymany.MinerUtils.creativetab.CreativeTabMinerUtils;
 import com.danymany.MinerUtils.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
@@ -14,8 +13,8 @@ public class itemMU extends Item
     public itemMU()
     {
         super();
-        this.setCreativeTab(CreativeTabs.tabAllSearch);
-        this.setNoRepair();
+        this.setCreativeTab(CreativeTabMinerUtils.MinerUtils_TAB);
+        this.setTextureName("MinerUtils:itemCrafter");
     }
 
     @Override
@@ -41,5 +40,4 @@ public class itemMU extends Item
     {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
-
 }

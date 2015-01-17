@@ -1,6 +1,7 @@
 package com.danymany.MinerUtils;
 
 import com.danymany.MinerUtils.configuration.ConfigurationHandler;
+import com.danymany.MinerUtils.init.modblocks;
 import com.danymany.MinerUtils.init.moditems;
 import com.danymany.MinerUtils.proxy.IProxy;
 import com.danymany.MinerUtils.reference.Reference;
@@ -27,6 +28,7 @@ public class MinerUtils
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         moditems.init();
+        modblocks.init();
     }
 
     @Mod.EventHandler

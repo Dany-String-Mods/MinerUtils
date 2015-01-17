@@ -1,19 +1,19 @@
 package com.danymany.MinerUtils.block;
 
+import com.danymany.MinerUtils.creativetab.CreativeTabMinerUtils;
 import com.danymany.MinerUtils.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 
 public class blockMU extends Block
 {
     public blockMU(Material material)
     {
         super(material);
-        this.setCreativeTab(CreativeTabs.tabAllSearch);
+        this.setCreativeTab(CreativeTabMinerUtils.MinerUtils_TAB);
     }
 
     public blockMU()

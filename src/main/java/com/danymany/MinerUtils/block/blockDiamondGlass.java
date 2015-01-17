@@ -8,4 +8,6 @@ public class blockDiamondGlass extends blockMU
         this.setBlockName("Diamond Glass");
         this.setBlockTextureName("blockDiamondGlass");
     }
+
+
 }
