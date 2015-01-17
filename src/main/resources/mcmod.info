@@ -1,0 +1,19 @@
+[
+ {
+ "modid": "MinerUtils",
+ "name": "Miner Utils",
+ "description": "Giving you some nice blocks to play with!(And maybe a few items) IN CLOSED BETA",
+ "version": "1.0",
+ "credits": "Created by 2DanyMany5 and stringle55",
+ "logoFile": "",
+ "mcversion": "1.7.10",
+ "url": "",
+ "updateUrl": "",
+ "authors": [ "2DanyMany5", "stringle55" ],
+ "parent":"",
+ "screenshots": [],
+ "dependencies": [
+ "mod_MinecraftForge"
+ ]
+ }
+ ]
