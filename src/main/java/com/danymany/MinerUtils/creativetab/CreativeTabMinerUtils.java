@@ -1,7 +1,7 @@
-package com.danymany.MinerUtils.creativetab;
+package com.danymany.minerutils.creativetab;
 
-import com.danymany.MinerUtils.init.moditems;
-import com.danymany.MinerUtils.reference.Reference;
+import com.danymany.minerutils.init.moditems;
+import com.danymany.minerutils.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

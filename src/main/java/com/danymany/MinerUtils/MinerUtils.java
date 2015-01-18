@@ -1,10 +1,10 @@
-package com.danymany.MinerUtils;
+package com.danymany.minerutils;
 
-import com.danymany.MinerUtils.configuration.ConfigurationHandler;
-import com.danymany.MinerUtils.init.modblocks;
-import com.danymany.MinerUtils.init.moditems;
-import com.danymany.MinerUtils.proxy.IProxy;
-import com.danymany.MinerUtils.reference.Reference;
+import com.danymany.minerutils.configuration.ConfigurationHandler;
+import com.danymany.minerutils.init.modblocks;
+import com.danymany.minerutils.init.moditems;
+import com.danymany.minerutils.proxy.IProxy;
+import com.danymany.minerutils.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -13,10 +13,10 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid= Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.FULL_VERSION)
-public class MinerUtils
+public class minerutils
 {
     @Mod.Instance(Reference.MOD_ID)
-    public static MinerUtils instance;
+    public static minerutils instance;
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS,serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;

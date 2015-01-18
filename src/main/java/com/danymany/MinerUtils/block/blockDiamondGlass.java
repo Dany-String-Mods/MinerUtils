@@ -1,13 +1,14 @@
-package com.danymany.MinerUtils.block;
+package com.danymany.minerutils.block;
 
 public class blockDiamondGlass extends blockMU
 {
     public blockDiamondGlass()
     {
         super();
-        this.setBlockName("Diamond Glass");
-        this.setBlockTextureName("blockDiamondGlass");
+        this.setBlockName("blockDiamondGlass");
+        this.setBlockTextureName("minerutils:blockDiamondGlass");
     }
+
 
 
 }

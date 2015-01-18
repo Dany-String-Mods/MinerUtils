@@ -1,4 +1,4 @@
-package com.danymany.MinerUtils.item;
+package com.danymany.minerutils.item;
 
 public class itemCrafter extends itemMU
 {
@@ -7,8 +7,11 @@ public class itemCrafter extends itemMU
         super();
         this.maxStackSize = 1;
         this.setUnlocalizedName("itemCrafter");
-        this.setTextureName("MinerUtils:itemCrafter");
+        this.setTextureName("minerutils:itemcrafter");
+
     }
+
+
 
 
 }

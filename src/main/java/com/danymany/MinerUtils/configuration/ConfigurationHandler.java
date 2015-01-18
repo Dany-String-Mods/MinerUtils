@@ -1,4 +1,4 @@
-package com.danymany.MinerUtils.configuration;
+package com.danymany.minerutils.configuration;
 
 
 import net.minecraftforge.common.config.Configuration;

@@ -1,7 +1,7 @@
-package com.danymany.MinerUtils.block;
+package com.danymany.minerutils.block;
 
-import com.danymany.MinerUtils.creativetab.CreativeTabMinerUtils;
-import com.danymany.MinerUtils.reference.Reference;
+import com.danymany.minerutils.creativetab.CreativeTabMinerUtils;
+import com.danymany.minerutils.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;

@@ -6,8 +6,8 @@ Description: Unexpected error
 
 java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 	at java.lang.String.substring(String.java:1914)
-	at com.danymany.MinerUtils.item.itemMU.getUnwrappedUnlocalizedName(itemMU.java:32)
-	at com.danymany.MinerUtils.item.itemMU.getUnlocalizedName(itemMU.java:27)
+	at com.danymany.minerutils.item.itemMU.getUnwrappedUnlocalizedName(itemMU.java:32)
+	at com.danymany.minerutils.item.itemMU.getUnlocalizedName(itemMU.java:27)
 	at net.minecraft.item.Item.getUnlocalizedNameInefficiently(Item.java:607)
 	at net.minecraft.item.Item.getItemStackDisplayName(Item.java:744)
 	at net.minecraft.item.ItemStack.getDisplayName(ItemStack.java:537)
@@ -38,8 +38,8 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Stacktrace:
 	at java.lang.String.substring(String.java:1914)
-	at com.danymany.MinerUtils.item.itemMU.getUnwrappedUnlocalizedName(itemMU.java:32)
-	at com.danymany.MinerUtils.item.itemMU.getUnlocalizedName(itemMU.java:27)
+	at com.danymany.minerutils.item.itemMU.getUnwrappedUnlocalizedName(itemMU.java:32)
+	at com.danymany.minerutils.item.itemMU.getUnlocalizedName(itemMU.java:27)
 	at net.minecraft.item.Item.getUnlocalizedNameInefficiently(Item.java:607)
 	at net.minecraft.item.Item.getItemStackDisplayName(Item.java:744)
 	at net.minecraft.item.ItemStack.getDisplayName(ItemStack.java:537)

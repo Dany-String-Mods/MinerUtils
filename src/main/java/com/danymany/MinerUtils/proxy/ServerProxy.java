@@ -1,4 +1,4 @@
-package com.danymany.MinerUtils.proxy;
+package com.danymany.minerutils.proxy;
 
 
 public class ServerProxy extends CommonProxy
