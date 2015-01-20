@@ -3,6 +3,7 @@ package com.danymany.minerutils;
 import com.danymany.minerutils.configuration.ConfigurationHandler;
 import com.danymany.minerutils.init.modblocks;
 import com.danymany.minerutils.init.moditems;
+import com.danymany.minerutils.init.recipes;
 import com.danymany.minerutils.proxy.IProxy;
 import com.danymany.minerutils.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -29,6 +30,7 @@ public class minerutils
 
         moditems.init();
         modblocks.init();
+        recipes.init();
     }
 
     @Mod.EventHandler

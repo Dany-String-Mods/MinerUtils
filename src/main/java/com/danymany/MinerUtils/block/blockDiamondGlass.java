@@ -9,6 +9,11 @@ public class blockDiamondGlass extends blockMU
         this.setBlockTextureName("minerutils:blockDiamondGlass");
     }
 
+    public boolean isOpaqueCube()
+    {
+        return false;
+    }
+
 
 
 }
