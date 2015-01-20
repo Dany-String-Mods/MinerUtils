@@ -1,2 +1,3 @@
 item.minerutils:itemCrafter.name=Crafting Tool
-tile.minerutils:Diamond Glass.name=Diamond Glass
+tile.minerutils:blockDiamondGlass.name=Diamond Glass
+tile.minerutils:blockSuperClearGlass.name=Super Clear Glass

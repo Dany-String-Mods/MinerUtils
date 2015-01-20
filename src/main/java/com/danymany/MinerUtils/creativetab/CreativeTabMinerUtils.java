@@ -7,10 +7,10 @@ import net.minecraft.item.Item;
 
 public class CreativeTabMinerUtils
 {
-    public static final CreativeTabs MinerUtils_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase()) {
+    public static final CreativeTabs MinerUtils_TAB = new CreativeTabs("Miner Utilities") {
         @Override
         public Item getTabIconItem() {
-            return moditems.itemCrafter;
+            return moditems.Crafter;
         }
     };
 }
