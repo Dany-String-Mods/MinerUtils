@@ -8,16 +8,13 @@ import net.minecraft.block.Block;
 
 public class modblocks
 {
-    public static final blockMU DiamondGlass = new blockDiamondGlass();
-    public static final blockMU SuperClearGlass = new blockSuperClearGlass();
+    public static final blockMU blockDiamondGlass = new blockDiamondGlass();
+    public static final blockMU blockSuperClearGlass = new blockSuperClearGlass();
 
     public static void init()
     {
-        GameRegistry.registerBlock(DiamondGlass, "blockDiamondGlass");
-        GameRegistry.registerBlock(SuperClearGlass, "blockSuperClearGlass");
+        GameRegistry.registerBlock(blockDiamondGlass, "blockDiamondGlass");
+        GameRegistry.registerBlock(blockSuperClearGlass, "blockSuperClearGlass");
     }
-
-    public static Block blockDiamondGlass = new blockDiamondGlass().setBlockTextureName("minerutils:blockDiamondGlass");
-    public static Block blockSuperClearGlass = new blockSuperClearGlass().setBlockTextureName("minerutils:blockSuperClearGlass");
 
 }

@@ -7,12 +7,12 @@ import net.minecraft.item.Item;
 
 public class moditems
 {
-    public static final itemMU Crafter = new itemCrafter();
+    public static final itemMU itemCrafter = new itemCrafter();
 
     public static void init()
     {
-        GameRegistry.registerItem(Crafter, "itemCrafter");
+        GameRegistry.registerItem(itemCrafter, "itemCrafter");
     }
 
-    public static Item itemCrafter = new itemCrafter().setTextureName("minerutilities:itemCrafter");
+
 }

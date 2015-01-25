@@ -17,6 +17,7 @@ public class itemMU extends Item
         super();
         this.setCreativeTab(CreativeTabMinerUtils.MinerUtils_TAB);
         this.setTextureName("minerutils:itemCrafter");
+
     }
 
     @Override

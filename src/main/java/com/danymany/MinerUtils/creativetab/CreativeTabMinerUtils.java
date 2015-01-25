@@ -10,7 +10,7 @@ public class CreativeTabMinerUtils
     public static final CreativeTabs MinerUtils_TAB = new CreativeTabs("Miner Utilities") {
         @Override
         public Item getTabIconItem() {
-            return moditems.Crafter;
+            return moditems.itemCrafter;
         }
     };
 }
