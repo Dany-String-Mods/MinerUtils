@@ -1,9 +1,9 @@
-[20:38:09] [main/INFO]: Setting user: Player992
-[20:38:27] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:39:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Miner Utils
-[20:39:26] [Sound Library Loader/INFO]: Sound engine started
-[20:40:03] [Client thread/ERROR]: Using missing texture, unable to load minerutils:textures/blocks/blockBlue.png
-java.io.FileNotFoundException: minerutils:textures/blocks/blockBlue.png
+[17:51:14] [main/INFO]: Setting user: Player328
+[17:51:28] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:52:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Miner Utils
+[17:52:17] [Sound Library Loader/INFO]: Sound engine started
+[17:52:58] [Client thread/ERROR]: Using missing texture, unable to load minerutils:textures/blocks/blockLightBlue.png
+java.io.FileNotFoundException: minerutils:textures/blocks/blockLightBlue.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -27,11 +27,11 @@ java.io.FileNotFoundException: minerutils:textures/blocks/blockBlue.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
 	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:40:04] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:40:07] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:40:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Miner Utils
-[20:40:10] [Client thread/ERROR]: Using missing texture, unable to load minerutils:textures/blocks/blockBlue.png
-java.io.FileNotFoundException: minerutils:textures/blocks/blockBlue.png
+[17:52:59] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:53:01] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:53:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Miner Utils
+[17:53:04] [Client thread/ERROR]: Using missing texture, unable to load minerutils:textures/blocks/blockLightBlue.png
+java.io.FileNotFoundException: minerutils:textures/blocks/blockLightBlue.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -58,23 +58,33 @@ java.io.FileNotFoundException: minerutils:textures/blocks/blockBlue.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
 	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:40:14] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:40:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:40:19] [Sound Library Loader/INFO]: Sound engine started
-[20:41:38] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:41:38] [Server thread/INFO]: Generating keypair
-[20:41:42] [Server thread/INFO]: Preparing start region for level 0
-[20:41:45] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:46] [Server thread/INFO]: Preparing spawn area: 1%
-[20:41:48] [Server thread/INFO]: Preparing spawn area: 17%
-[20:41:49] [Server thread/INFO]: Preparing spawn area: 38%
-[20:41:50] [Server thread/INFO]: Preparing spawn area: 82%
-[20:41:51] [Server thread/INFO]: Changing view distance to 2, from 10
-[20:41:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4877ms behind, skipping 97 tick(s)
-[20:41:58] [Server thread/INFO]: Player992[local:E:2a308d17] logged in with entity id 255 at (-1201.9841582818206, 4.0, 188.94308538885892)
-[20:41:58] [Server thread/INFO]: Player992 joined the game
-[20:42:08] [Server thread/INFO]: Player992 has just earned the achievement [Taking Inventory]
-[20:42:08] [Client thread/INFO]: [CHAT] Player992 has just earned the achievement [Taking Inventory]
-[20:42:28] [Client thread/INFO]: Stopping!
-[20:42:31] [Client Shutdown Thread/INFO]: Stopping server
-[20:42:31] [Client Shutdown Thread/INFO]: Saving players
+[17:53:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:53:08] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:53:10] [Sound Library Loader/INFO]: Sound engine started
+[17:54:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:54:02] [Server thread/INFO]: Generating keypair
+[17:54:08] [Server thread/INFO]: Preparing start region for level 0
+[17:54:10] [Server thread/INFO]: Preparing spawn area: 0%
+[17:54:11] [Server thread/INFO]: Preparing spawn area: 16%
+[17:54:12] [Server thread/INFO]: Preparing spawn area: 74%
+[17:54:13] [Server thread/INFO]: Changing view distance to 2, from 10
+[17:54:16] [Server thread/INFO]: Player328[local:E:0e338a99] logged in with entity id 238 at (-1201.9841582818206, 4.0, 188.94308538885892)
+[17:54:17] [Server thread/INFO]: Player328 joined the game
+[17:54:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6098ms behind, skipping 121 tick(s)
+[17:54:26] [Server thread/INFO]: Player328 has just earned the achievement [Taking Inventory]
+[17:54:27] [Client thread/INFO]: [CHAT] Player328 has just earned the achievement [Taking Inventory]
+[17:54:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8389ms behind, skipping 167 tick(s)
+[17:55:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7681ms behind, skipping 153 tick(s)
+[17:55:19] [Server thread/INFO]: Saving and pausing game...
+[17:55:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:55:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:55:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:55:21] [Client thread/INFO]: Stopping!
+[17:55:21] [Server thread/INFO]: Stopping server
+[17:55:21] [Server thread/INFO]: Saving players
+[17:55:21] [Server thread/INFO]: Saving worlds
+[17:55:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:55:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:55:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:55:21] [Client Shutdown Thread/INFO]: Stopping server
+[17:55:21] [Client Shutdown Thread/INFO]: Saving players

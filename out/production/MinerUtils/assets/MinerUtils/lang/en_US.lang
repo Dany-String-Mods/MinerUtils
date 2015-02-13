@@ -1,3 +1,19 @@
 item.minerutils:itemCrafter.name=Crafting Tool
 tile.minerutils:blockDiamondGlass.name=Diamond Glass
 tile.minerutils:blockSuperClearGlass.name=Super Clear Glass
+tile.minerutils:blockBlack.name=Black Block
+tile.minerutils:blockBlue.name=Blue Block
+tile.minerutils:blockBrown.name=Brown Block
+tile.minerutils:blockCyan.name=Cyan Block
+tile.minerutils:blockGreen.name=Green Block
+tile.minerutils:blockGrey.name=Grey Block
+tile.minerutils:blockLightBlue.name=Light Blue Block
+tile.minerutils:blockLightGray.name=Light Grey Block
+tile.minerutils:blockLime.name=Lime Block
+tile.minerutils:blockMagenta.name=Magenta Block
+tile.minerutils:blockOrange.name=Orange Block
+tile.minerutils:blockPink.name-Pink Block
+tile.minerutils:blockPurple.name=Purple Block
+tile.minerutils:blockRed.name=Red Block
+tile.minerutils:blockYellow.name=Yellow Block
+tile.minerutils:blockWhite.name=White Block
