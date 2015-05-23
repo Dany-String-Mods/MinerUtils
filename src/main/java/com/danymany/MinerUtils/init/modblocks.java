@@ -23,7 +23,9 @@ public class modblocks
     public static final blockMU blockPurple = new blockPurple();
     public static final blockMU blockRed = new blockRed();
     public static final blockMU blockYellow = new blockYellow();
+    public static final blockMU blockQuestionMark = new blockQuestionMark();
     public static final blockMU blockWhite = new blockWhite();
+    public static final blockMU blockElis = new blockElis();
 
     public static void init()
     {
@@ -45,6 +47,8 @@ public class modblocks
         GameRegistry.registerBlock(blockRed, "blockRed");
         GameRegistry.registerBlock(blockYellow, "blockYellow");
         GameRegistry.registerBlock(blockWhite, "blockWhite");
+        GameRegistry.registerBlock(blockQuestionMark, "blockQuestionMark");
+        GameRegistry.registerBlock(blockElis, "blockElis");
     }
 
 }

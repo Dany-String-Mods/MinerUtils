@@ -17,4 +17,6 @@ tile.minerutils:blockPurple.name=Purple Block
 tile.minerutils:blockRed.name=Red Block
 tile.minerutils:blockYellow.name=Yellow Block
 tile.minerutils:blockWhite.name=White Block
-tab.MinerUtils=MinerUtils
+itemGroup.Miner Utilities=MinerUtils Tab
+tile.minerutils:blockQuestionMark.name=Question Mark
+tile.minerutils:blockElis.name=Amazingness in a block
